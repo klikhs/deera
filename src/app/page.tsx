@@ -120,8 +120,8 @@ export default function HomePage() {
       {/* Locations Section */}
       <section className="bg-white dark:bg-slate-900 rounded-2xl p-6 lg:p-12 border border-slate-100 dark:border-slate-800 shadow-sm grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 mt-12">
         <div className="space-y-6">
-          <h2 className="text-3xl font-bold">Kunjungi & Order Offline </h2>
-          <p className="text-slate-600 dark:text-slate-400">Order dapat dilakukan melalui offline dan online. Anda dapat order melalui kontak kami</p>
+          <h2 className="text-3xl font-bold">Mau Order Coffee Offline ? </h2>
+          <p className="text-slate-600 dark:text-slate-400">Anda bisa datang ke lokasi kami ( No Dine-In )</p>
           <div className="space-y-4">
             <div className="flex items-start gap-4">
               <span className="material-symbols-outlined text-primary">location_on</span>
