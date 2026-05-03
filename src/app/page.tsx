@@ -49,12 +49,18 @@ export default function HomePage() {
       </section>
 
       {/* Coffee Section */}
-      <section id="coffee" className="space-y-8 scroll-mt-20">
-        <div className="flex items-center gap-4">
-          <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary">
-            <span className="material-symbols-outlined">coffee</span>
+      <section id="coffee" className="space-y-4 scroll-mt-20">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <div className="flex items-center gap-4">
+            <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary">
+              <span className="material-symbols-outlined">coffee</span>
+            </div>
+            <h2 className="text-3xl font-bold">Minuman Coffee</h2>
           </div>
-          <h2 className="text-3xl font-bold">Minuman Coffee</h2>
+          <div className="inline-flex items-center gap-2 bg-amber-50 border border-amber-200 text-amber-800 text-xs sm:text-sm font-semibold px-4 py-2 rounded-full">
+            <span className="material-symbols-outlined text-[16px] text-amber-500">*</span>
+            Extra Shot <span className="text-amber-600 font-bold">+ Rp 3.000</span>
+          </div>
         </div>
 
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6">
