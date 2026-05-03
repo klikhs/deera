@@ -25,7 +25,7 @@ export default function TentangKamiPage() {
           <img
             alt="Produk d'eera coffee premium terjangkau"
             className="absolute inset-0 w-full h-full object-cover"
-            src="/deera-botolan.png"
+            src="/palm-sugar.jpg"
           />
         </div>
         <div className="space-y-6">

@@ -34,15 +34,12 @@ export default function RootLayout({
               <div className="flex items-center gap-8">
                 <Link href="/" className="flex items-center gap-2">
                   <div className="text-primary">
-                    <svg className="w-8 h-8" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M44 4H30.6666V17.3334H17.3334V30.6666H4V44H44V4Z" fill="currentColor"></path>
-                    </svg>
+                    <span className="material-symbols-outlined text-3xl">coffee</span>
                   </div>
                   <h2 className="text-xl font-bold tracking-tight">d'eera coffee</h2>
                 </Link>
                 <nav className="hidden md:flex items-center gap-6">
                   <Link href="/" className="text-sm font-medium hover:text-primary transition-colors">Beranda</Link>
-                  <Link href="/harga" className="text-sm font-medium hover:text-primary transition-colors">Harga</Link>
                   <Link href="/tentang" className="text-sm font-medium hover:text-primary transition-colors">Tentang Kami</Link>
                 </nav>
               </div>
@@ -62,9 +59,7 @@ export default function RootLayout({
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-8">
             <div className="flex items-center gap-2">
               <div className="text-primary/50">
-                <svg className="w-6 h-6" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M44 4H30.6666V17.3334H17.3334V30.6666H4V44H44V4Z" fill="currentColor"></path>
-                </svg>
+                <span className="material-symbols-outlined text-2xl">coffee</span>
               </div>
               <h2 className="text-lg font-bold tracking-tight opacity-50">d'eera coffee</h2>
             </div>
